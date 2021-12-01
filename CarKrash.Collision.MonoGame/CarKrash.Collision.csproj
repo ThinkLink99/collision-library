@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>CarKrash.Collision</RootNamespace>
+    <Authors>Trey Hall</Authors>
+    <Company>Car Krash</Company>
+    <Description>Prebuilt tools for use in MonoGame</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.4.4</Version>
+    <ApplicationIcon>car_krash_logo_Msl_icon.ico</ApplicationIcon>
+    <PackageIcon>Car Krash Logo.png</PackageIcon>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageProjectUrl>https://dev.azure.com/CarKrashStudios/Collision%20Engine%20-%20Base</PackageProjectUrl>
+    <Copyright>CarKrashStudios 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://CarKrashStudios@dev.azure.com/CarKrashStudios/Collision%20Engine%20-%20Base/_git/Collision%20Engine%20-%20Base</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Physics\**" />
+    <EmbeddedResource Remove="Physics\**" />
+    <None Remove="Physics\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Car Krash Logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
