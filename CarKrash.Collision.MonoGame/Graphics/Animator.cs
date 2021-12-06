@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace CarKrash.Collision.Graphics
 {
-    public class Animator
+    public class Animator : Component
     {
         protected Dictionary<string, Animation> animations;
 

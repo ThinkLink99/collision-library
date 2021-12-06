@@ -22,6 +22,15 @@ namespace CarKrash.Collision
             component.SetParent(this);
             Components.Add(component);
         }
+        /// <summary>
+        /// Removes a component from the GameObject
+        /// </summary>
+        /// <param name="component"></param>
+        public void RemoveComponent(Component component)
+        {
+            component.SetParent(null);
+            Components.Remove(component);
+        }
         public T FindComponent<T> ()
         {
             return Components.Where(c => c is T).Cast<T>().FirstOrDefault();
