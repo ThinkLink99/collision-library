@@ -128,6 +128,9 @@ namespace Collision
             return true;
         }
 
+        /// <summary>
+        /// The <seealso cref="Scene"/> currently handling Update/Draw calls
+        /// </summary>
         public Scene CurrentScene { get => currentScene; }
         public Microsoft.Xna.Framework.GraphicsDeviceManager GraphicsDeviceManager { get => graphics; set => graphics = value; }
     }
