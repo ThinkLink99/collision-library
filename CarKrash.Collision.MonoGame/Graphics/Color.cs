@@ -1,4 +1,4 @@
-﻿namespace CarKrash.Collision.Graphics
+﻿namespace Collision.Graphics
 {
     public struct Color
     {

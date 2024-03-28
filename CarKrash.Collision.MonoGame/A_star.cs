@@ -4,7 +4,7 @@
 //using System.Linq;
 //using System.Text;
 
-//namespace CarKrash.Collision
+//namespace Collision
 //{
 //    public sealed class A_star
 //    {

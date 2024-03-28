@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace CarKrash.Collision.Utils
+namespace Collision.Utils
 {
     public class Database<T> : IList<T>
     {

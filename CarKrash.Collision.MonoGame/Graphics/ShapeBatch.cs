@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace CarKrash.Collision
+namespace Collision
 {
     public sealed class ShapeBatch : IDisposable
     {

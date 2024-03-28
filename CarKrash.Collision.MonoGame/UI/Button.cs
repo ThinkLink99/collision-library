@@ -1,9 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using CarKrash.Collision.Graphics;
+using Collision.Graphics;
 using System;
 
-namespace CarKrash.Collision.UI
+namespace Collision.UI
 {
     public class Button : UIControl
     {

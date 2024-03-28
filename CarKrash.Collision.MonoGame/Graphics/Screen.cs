@@ -1,9 +1,9 @@
-﻿using CarKrash.Collision.Graphics;
+﻿using Collision.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace CarKrash.Collision
+namespace Collision
 {
     public class Screen : IDisposable
     {

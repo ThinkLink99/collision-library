@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
 
-namespace CarKrash.Collision.UI
+namespace Collision.UI
 {
     public interface IClick
     {

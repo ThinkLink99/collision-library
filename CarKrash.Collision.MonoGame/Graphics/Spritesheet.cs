@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
 
-namespace CarKrash.Collision.Graphics
+namespace Collision.Graphics
 {
     public class Spritesheet
     {

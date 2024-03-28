@@ -1,9 +1,9 @@
-﻿using CarKrash.Collision.Graphics;
+﻿using Collision.Graphics;
 using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 
-namespace CarKrash.Collision.UI
+namespace Collision.UI
 {
     public sealed class Canvas
     {

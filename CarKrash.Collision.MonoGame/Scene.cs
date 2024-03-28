@@ -1,5 +1,5 @@
-﻿using CarKrash.Collision.Graphics;
-using CarKrash.Collision.UI;
+﻿using Collision.Graphics;
+using Collision.UI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace CarKrash.Collision
+namespace Collision
 {
     public abstract class Scene
     {

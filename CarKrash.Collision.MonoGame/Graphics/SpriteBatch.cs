@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace CarKrash.Collision.Graphics
+namespace Collision.Graphics
 {
     public class CSpriteBatch : IDisposable
     {

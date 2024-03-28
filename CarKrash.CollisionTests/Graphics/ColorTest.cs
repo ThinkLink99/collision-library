@@ -1,8 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CarKrash.Collision.Graphics;
+using Collision.Graphics;
 using System;
 
-namespace CarKrash.CollisionTests
+namespace CollisionTests
 {
     [TestClass]
     public class ColorTest

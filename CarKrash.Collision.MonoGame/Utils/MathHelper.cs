@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CarKrash.Collision
+namespace Collision
 {
     public static partial class MonoGameUtil
     {

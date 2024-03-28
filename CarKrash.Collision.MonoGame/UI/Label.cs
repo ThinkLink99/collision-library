@@ -1,8 +1,8 @@
-﻿using CarKrash.Collision.Graphics;
+﻿using Collision.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace CarKrash.Collision.UI
+namespace Collision.UI
 {
     public class Label : UIControl
     {

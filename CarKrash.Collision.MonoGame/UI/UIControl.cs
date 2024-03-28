@@ -4,11 +4,11 @@ using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
-using CarKrash.Collision.Graphics;
+using Collision.Graphics;
 using System.Diagnostics;
 using System.Linq;
 
-namespace CarKrash.Collision.UI
+namespace Collision.UI
 {
     public abstract class UIControl : GameObject
     {

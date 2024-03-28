@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CarKrash.Collision.Utils
+namespace Collision.Utils
 {
     class ConsoleUtills
     {

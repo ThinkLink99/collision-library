@@ -1,4 +1,4 @@
-﻿namespace CarKrash.Collision
+﻿namespace Collision
 {
     public abstract class Component : IReadableComponent, IWritableComponent
     {

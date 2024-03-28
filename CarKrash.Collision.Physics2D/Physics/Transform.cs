@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace CarKrash.Collision
+namespace Collision
 {
     public struct Transform
     {

@@ -1,8 +1,8 @@
-﻿using CarKrash.Collision.Graphics;
+﻿using Collision.Graphics;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CarKrash.Collision
+namespace Collision
 {
     public class GameObject
     {

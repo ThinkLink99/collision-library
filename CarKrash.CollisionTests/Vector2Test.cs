@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarKrash.CollisionTests
+namespace CollisionTests
 {
     [TestClass]
     class Vector2Test

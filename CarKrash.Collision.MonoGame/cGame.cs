@@ -1,6 +1,6 @@
-﻿using CarKrash.Collision.Graphics;
+﻿using Collision.Graphics;
 
-namespace CarKrash.Collision
+namespace Collision
 {
     /// <summary>
     /// Handles drawing of typical screen components, such as animators, UIControls, etc.

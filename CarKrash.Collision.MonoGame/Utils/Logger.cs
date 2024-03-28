@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CarKrash.Collision.Utils
+namespace Collision.Utils
 {
     public enum LogType // Types of log messages
     {

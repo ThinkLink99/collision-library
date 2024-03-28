@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace CarKrash.Collision.Graphics
+namespace Collision.Graphics
 {
     public class Animation
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Xna.Framework.Input;
 
-namespace CarKrash.Collision
+namespace Collision
 {
     public class Keyboard
     {

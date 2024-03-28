@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CarKrash.Collision.Graphics
+namespace Collision.Graphics
 {
     public class Animator : Component
     {

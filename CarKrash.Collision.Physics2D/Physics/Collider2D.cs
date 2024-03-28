@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CarKrash.Collision.Physics2D
+namespace Collision.Physics2D
 {
     public abstract class Collider2D
     {
