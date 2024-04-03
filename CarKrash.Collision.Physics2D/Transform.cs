@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace Collision
+namespace Collision.Physics2D
 {
     public struct Transform
     {
@@ -19,8 +19,8 @@ namespace Collision
         public Transform(Vector3 position, Vector3 size)
         {
             this.position = position;
-            this.rotation = 0f;
-            this.scale = Vector3.One;
+            rotation = 0f;
+            scale = Vector3.One;
             this.size = size;
         }
 
@@ -49,9 +49,9 @@ namespace Collision
         {
             get
             {
-                return new Rectangle((int)position.X, 
-                                     (int)position.Y, 
-                                     (int)(size.X * scale.X), 
+                return new Rectangle((int)position.X,
+                                     (int)position.Y,
+                                     (int)(size.X * scale.X),
                                      (int)(size.Y * scale.X));
             }
         }
@@ -61,7 +61,7 @@ namespace Collision
             get
             {
                 return new Transform(Vector3.Zero, Vector3.One, 0f, Vector3.Zero);
-            } 
+            }
         }
     }
 }
